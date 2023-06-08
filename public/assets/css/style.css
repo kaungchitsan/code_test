@@ -1,0 +1,24 @@
+.dataTables_wrapper{
+    padding: 0 20px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    border-radius: 10px;
+    padding: 5px;
+    background: #830866;
+    color: #fff;
+}
+a.paginate_button{
+    padding: 5px;
+    cursor: pointer;
+}
+.dataTables_wrapper .dataTables_filter input{
+    border-radius: 30px;
+}
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate{
+    margin: 0 37px 0 37px;
+}
+.table-responsive{
+    overflow: hidden;
+}
+
+/* Question form */
