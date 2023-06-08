@@ -19,3 +19,10 @@ php aritsan serve
 ```bash
 localhost:8000/admin/login
 ```
+
+## Credential
+
+```bash
+username - codetest
+password - codetest@123
+```
