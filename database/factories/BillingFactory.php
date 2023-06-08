@@ -20,7 +20,7 @@ class BillingFactory extends Factory
     public function definition()
     {
         return [
-            'client_id' => $this->faker->unique()->numberBetween(1, Client::count()),
+            'client_id' => $this->faker->unique()->numberBetween(1, 20),
             'amount' => $this->faker->randomNumber(5, true),
             'description' => $this->faker->text(),
             'due_date' => $this->faker->date()
